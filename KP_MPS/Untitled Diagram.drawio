@@ -1,1 +1,138 @@
-<mxfile host="app.diagrams.net" modified="2021-11-28T18:16:03.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" version="15.8.6" etag="LABhJyzx9nxtVPeBvQpT" type="github"><diagram id="BDikjY4Nm3Qo6hhndrGj">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-28T22:15:36.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.34" etag="DYQKkrVuEOVxHrPj4ihk" version="15.8.6" type="github">
+  <diagram id="BDikjY4Nm3Qo6hhndrGj" name="Page-1">
+    <mxGraphModel dx="1673" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-1" target="qXIKSA_yeadGHtbIyEvJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-1" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-2" target="qXIKSA_yeadGHtbIyEvJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-2" target="qXIKSA_yeadGHtbIyEvJ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-2" value="Выбор старшего разряда" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-4" target="qXIKSA_yeadGHtbIyEvJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-4" target="qXIKSA_yeadGHtbIyEvJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-4" value="Флаг GF0 установлен?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-6" target="qXIKSA_yeadGHtbIyEvJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-6" value="Отправляем старший разряд в регистр" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-8" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="399" y="280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-9" value="В 7 бите сбрасываем в 0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-11" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="570" as="sourcePoint" />
+            <mxPoint x="320" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="474" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-13" target="qXIKSA_yeadGHtbIyEvJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-13" value="Выбор младшего разряда" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-15" target="qXIKSA_yeadGHtbIyEvJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-15" value="Отправляем младший разряд в регистр" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-17" target="qXIKSA_yeadGHtbIyEvJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-17" value="Защелкиваем регистры" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-19" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-22" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="796" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-22" target="qXIKSA_yeadGHtbIyEvJ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="856" y="271" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-25" target="qXIKSA_yeadGHtbIyEvJ-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-25" value="Очистка сегментов индикатора" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="796" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-27" target="qXIKSA_yeadGHtbIyEvJ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-27" value="Сброс значения переменных индикатора и клавиатуры" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="796" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-29" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="796" y="422" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-31" target="qXIKSA_yeadGHtbIyEvJ-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-31" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1074" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-33" target="qXIKSA_yeadGHtbIyEvJ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-33" value="Разрешаем преобразование АЦП и получаем последовательно два байта" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1052.5" y="212" width="163" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-36" target="qXIKSA_yeadGHtbIyEvJ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-36" value="Преобразуем полученные байты" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1074" y="309" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-38" target="qXIKSA_yeadGHtbIyEvJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-38" value="Сохраняем результат в переменную&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1074" y="391" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-40" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1074" y="477" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qXIKSA_yeadGHtbIyEvJ-42" target="qXIKSA_yeadGHtbIyEvJ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-42" value="Начало" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qXIKSA_yeadGHtbIyEvJ-43" value="Вычисляем 2*Q и&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
